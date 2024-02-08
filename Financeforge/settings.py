@@ -83,9 +83,9 @@ WSGI_APPLICATION = "Financeforge.wsgi.application"
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'financeforge',
-        'USER': 'postgres',
-        'PASSWORD': 'dim21loire',
+        'NAME': 'YOUR_DATABASE',
+        'USER': 'YOUR_USER',
+        'PASSWORD': 'YOUR_PASSWORD',
         'HOST': 'localhost',  # Pour le serveur local
         'PORT': '5432',       # Port par défaut de PostgreSQL
     }
